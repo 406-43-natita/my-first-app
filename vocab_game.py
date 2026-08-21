@@ -101,11 +101,11 @@ ans2 = st.text_input(
 )
 ans3 = st.text_input(
     "ข้อ 3: Cats love to eat `c _ c _ n u _`. 🥥",
-    value=st.session_state.ans2_val,
+    value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
     "ข้อ 4: Cats love to eat `k _ y`. 🔑",
-    value=st.session_state.ans2_val,
+    value=st.session_state.ans4_val,
 )
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
